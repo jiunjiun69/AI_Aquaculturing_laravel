@@ -7,7 +7,7 @@
 ## 資料庫連結方法
 修改`.env`檔案中這幾行
 ```
-DB_HOST=YOUR_IP
+DB_HOST=YOUR_HOST
 DB_DATABASE=YOUR_DATABASE
 DB_USERNAME=YOUR_USERNAME
 DB_PASSWORD=YOUR_PASSWORD
@@ -19,6 +19,11 @@ DB_PASSWORD=YOUR_PASSWORD
 ```sh
 cd 專案根目錄
 php artisan serve
+```
+
+## 執行時要指定host以及port時
+```sh
+php artisan serve --host=YOUR_HOST --port=YOUR_PORT
 ```
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
