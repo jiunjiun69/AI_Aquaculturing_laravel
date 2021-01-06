@@ -1,3 +1,26 @@
+# AI_Aquaculturing laravel智慧觀賞魚輔助系統網站
+此專案在controller連結了mysql資料庫,接著利用[Server-Sent Events](https://en.wikipedia.org/wiki/Server-sent_events)將資料推送到前端,並使用[Chart.js](https://www.chartjs.org/)此JavaScript圖表即時視覺化顯示最新觀賞魚資訊給使用者觀看
+
+## 資料庫數據
+資料庫數據位於mysql資料夾中的fishai.sql,可以直接將其匯入資料庫中
+
+## 資料庫連結方法
+修改`.env`檔案中的(10,12,13,14)這幾行
+```
+DB_HOST=YOUR_IP
+DB_DATABASE=YOUR_DATABASE
+DB_USERNAME=YOUR_USERNAME
+DB_PASSWORD=YOUR_PASSWORD
+```
+```
+如在本地執行,則DB_HOST可以設為127.0.0.1
+```
+## 如何執行?
+```sh
+cd 專案根目錄
+php artisan serve
+```
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
