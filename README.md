@@ -5,7 +5,7 @@
 資料庫數據位於mysql資料夾中的fishai.sql,可以直接將其匯入資料庫中
 
 ## 資料庫連結方法
-修改`.env`檔案中的(10,12,13,14)這幾行
+修改`.env`檔案中這幾行
 ```
 DB_HOST=YOUR_IP
 DB_DATABASE=YOUR_DATABASE
