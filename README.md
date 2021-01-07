@@ -16,6 +16,7 @@ DB_PASSWORD=YOUR_PASSWORD
 如在本地執行,則DB_HOST可以設為127.0.0.1
 ```
 ## 如何執行?
+使用cmd執行指令
 ```sh
 cd 專案根目錄
 php artisan serve
