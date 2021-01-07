@@ -26,6 +26,11 @@ php artisan serve
 php artisan serve --host=YOUR_HOST --port=YOUR_PORT
 ```
 
+## 網站登入帳號及密碼
+```sh
+帳號:test1234@gmail.com
+密碼:123456789
+```
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
